@@ -12,7 +12,7 @@ set $menu --no-startup-id rofi -show drun -show-icons
 
 
 
-exec_always swaybg -i ~/abobodas.jpg -m fill
+exec_always swaybg -i ./abobodas.jpg -m fill
 
 
 
