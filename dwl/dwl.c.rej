@@ -1,0 +1,15 @@
+--- dwl.c
++++ dwl.c
+@@ -1,10 +1,12 @@
+ /*
+  * See LICENSE file for copyright and license details.
+  */
++#include <fcntl.h>
+ #include <getopt.h>
+ #include <libinput.h>
+ #include <linux/input-event-codes.h>
+ #include <math.h>
++#include <libdrm/drm_fourcc.h>
+ #include <signal.h>
+ #include <stdio.h>
+ #include <stdlib.h>
